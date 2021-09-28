@@ -33,11 +33,10 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+    height: 200px;
+    background: #aaa;
 }
-
+ 
 /* Add a card effect for articles */
 .card {
    background-color: white;
