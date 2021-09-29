@@ -8,11 +8,4 @@ $(document).ready(function(){
         loop: true
     })
 
-    var word = new Typed(".typing-2", {
-        strings: ["ITS Surabaya Informatics Student"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    })
-
 });
