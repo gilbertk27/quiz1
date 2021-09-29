@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert WebProg Quiz 1 Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+<!--home section start -->
 <div class="jumbotron text-center" style="header">
-  <h1>Quiz 1 Web Programming Assignment</h1>
-  <p>Gilbert Kurniawan H - 05111942000025</p> 
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <h1>Quiz 1 Web Programming Assignment</h1>
+				<p>Gilbert Kurniawan H - 05111942000025</p> 
+                <div>I'm a <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
 </div>
 
+  
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="#">HOMEPAGE </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -46,7 +56,7 @@
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
       <div>
-		<img src="asset/images/statue_surabaya.jpeg" class="img-fluid max-width: 100%" alt="surabaya_statue">
+		<img src="asset/images/Gilbert_profile.jpg" class="img-fluid max-width: 100%" alt="surabaya_statue">
 	  </div>
 	  <br>
 	  <div>
@@ -58,21 +68,18 @@
     <div class="col-sm-8">
       <h2>Surabaya, City of Heroes</h2>
       <h5>Hometown, Sept 28, 2021</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	  <img src="asset/images/statue_surabaya.jpeg" class="img-fluid max-width: 100%" alt="statue_surabaya">
+      <p>Surabaya is a port city on the Indonesian island of Java. A vibrant, sprawling metropolis, it mixes modern skyscrapers with canals and buildings from its Dutch colonial past. It has a thriving Chinatown and an Arab Quarter whose Ampel Mosque dates to the 15th century. The Tugu Pahlawan (Heroes Monument) honors the independence battles waged in Surabaya’s streets in 1945.</p>
       <br>
       <h2>Semanggi Surabaya, Our Local Classic</h2>
       <h5>Food, Sept 28, 2021</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	  <img src="asset/images/food_semanggi.jpeg" class="img-fluid max-width: 100%" alt="food_semanggi">
+      <p>Semanggi or Pecel Semanggi is a type of typical food from Surabaya , East Java , made from steamed clover leaves and then enjoyed with a delicious spicy chili sauce . Clover can also be served with sprouts , kale , uli crackers made from rice, and seasonings made from yams . The sauce or seasoning used in clover food has different raw materials and tastes.</p>
 	  <br>
       <h2>Jembatan Suramadu, the Longest Bridge in Town</h2>
       <h5>Tourist, Sept 28, 2021</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	  <img src="asset/images/panorama_suramadu.jpg" class="img-fluid max-width: 100%" alt="surabaya_suramadu">
+      <p>The Suramadu Bridge, also known as the Surabaya–Madura Bridge, is a cable-stayed bridge between Surabaya on the island of Java and the town of Bangkalan on the island of Madura in Indonesia. Opened in June 2009, the 5.4-km bridge is the longest in Indonesia and the second longest in southern hemisphere.</p>
     </div>
   </div>
 </div>
@@ -80,6 +87,8 @@
 <div class="jumbotron text-center" style="footer">
   <p>Footer</p>
 </div>
+
+	<script src="script.js"></script>
 
 </body>
 </html>
